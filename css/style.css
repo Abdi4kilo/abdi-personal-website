@@ -1,1 +1,26 @@
 /* All style should go in this document. */
+.space{
+	padding-top:75px;
+}
+.navbar-default{
+	background-color:#7CBACF;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-text {
+    color: #020212;
+}
+.profile{
+	width: 300px;
+	height: 300px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+.footer{
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+.footer_img{
+	padding-left: 20px;
+}
