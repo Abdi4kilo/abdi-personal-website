@@ -9,96 +9,112 @@
         
     </head>
     <body>
+     <!---navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-	    <div class="navbar-header">
-		    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
-		    <span class="sr-only">Toggle navigation</span>
-          	<span class="icon-bar"></span>
-          	<span class="icon-bar"></span>
-          	<span class="icon-bar"></span>
-			</button>
-	    	
-	    </div>
-	    <div class="collapse navbar-collapse" id="collapse">
-	    	<ul class="nav navbar-nav">
-	    		<li><a href="#">Profile</a></li>
-	    		<li><a href="#">Education</a></li>
-	    		<li><a href="#" id="exp">Experience</a></li>
-	    		<li><a href="#">Projects</a></li>
-	    		<li><a href="#">Technical skills</a></li>
-	    		<li><a href="#">Awards</a></li>
-	    		<li><a href="#">Volunteer work</a></li>
-	    		<li><a href="#">Contact info</a></li>
-	    	</ul>
-    	</div>
-	</div>
+		<div class="container">
+		    <div class="navbar-header">
+			    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
+				    <span class="sr-only">Toggle navigation</span>
+			      	<span class="icon-bar"></span>
+			      	<span class="icon-bar"></span>
+			      	<span class="icon-bar"></span>
+				</button>
+		    	
+		    </div>
+		    <div class="collapse navbar-collapse" id="collapse">
+		    	<ul class="nav navbar-nav">
+		    		<li><a class="navi" id="profile" href="#">Profile</a></li>
+		    		<li><a class="navi" id="education" href="#">Education</a></li>
+		    		<li><a class="navi" id="exper" href="#">Experience</a></li>
+		    		<li><a class="navi" id="projects" href="#">Projects</a></li>
+		    		<li><a class="navi" id="skills" href="#">Technical skills</a></li>
+		    		<li><a class="navi" id="awards" href="#">Awards</a></li>
+		    		<li><a class="navi" id="volunteer" href="#">Volunteer work</a></li>
+		    		
+		    	</ul>
+			</div>
+		</div>
     </nav>
-    
+    <!---navigation -->
+
+     <!-- start of container -->
      <div class="container">
-		<div class="row page-header">
+    	 <!--- first row for profile -->
+		<div class="row page-header" id="profileDiv">
+			<section class="col-lg-4 space" >
+				<h2>Contact</h2>
+				<div class="table-responsive">
+					<table class="table">
+						<tr>
+						 <td>Email</td>
+						 <td>abdi.g.biru@gmail.com
+						</tr>
+						<tr>
+						 <td>Phone</td>
+						 <td>804-528-8623
+						</tr>
+						<tr>
+						 <td>Secondary Email</td>
+						 <td>abdi4kilo@gmail.com
+						</tr>
+					</table>
+				</div>
+			</section>	
+	 		<section class="col-lg-4 ">
+				<img class="img-responsive img-rounded profile" src="image/profile.jpg"/>
+			</section>
+			<section class="col-lg-4 space" >
+				<h2>Profile</h2>
+				<p>Studying at Ub for the last semester has been a new and exciting experience. The diversity in Bridgeport has made me realize that the world is big place. I have met different people from all parts of the world, ate different cuisines and experienced their culture. Trying to understand different cultures and backgrounds has truly been a once in life time experience.  
+				</p>
+			</section>	
+		</div>
+		<!--- first row for profile -->
 
-				<section class="col-lg-4 space" >
-					<h2>Contact</h2>
-					<div class="table-responsive">
-						<table class="table">
-							<tr>
-							 <td>Email</td>
-							 <td>abdi.g.biru@gmail.com
-							</tr>
-							<tr>
-							 <td>Phone</td>
-							 <td>804-528-8623
-							</tr>
-							<tr>
-							 <td>Email</td>
-							 <td>abdi.g.biru@gmail.com
-							</tr>
+		<!--- second row for education -->
+		<div class="row page-header" id="educationDiv">
+			<h2>Education</h2>
+     		<section class="col-lg-6"  style="padding-right:20px; border-right: 1px solid #ccc;">
+     			<h3><u>Addis Ababa University</u><small>&nbsp;(Addis Ababa, Ethiopia)</small></h3>
+				<h4>Degree:Bachelor of Science in Computer Science</h4>
+				<h4>Graduated:06/20/2014</h4>
+				<h4>CGPA:3.04</h4>
+     		</section>
+     		<section class="col-lg-6 " style="padding-left:150px">
+     			<h3><u>University of Bridgeport</u><small>&nbsp;(Bridgeport, CT, USA)</small></h3>
+				<h4>Degree:Master of Science in Computer Science</h4>
+				<h4>Expected:May 2017, </h4>
+				<h4>CGPA:3.57GPA</h4>
+				
+     		</section>
+     	</div>
+     	<!--- second row for experience -->
 
-						</table>
-					</div>
-				</section>	
-		 		<section class="col-lg-4 ">
-
-					<img class="img-responsive img-rounded profile" src="image/profile.jpg"/>
-				</section>
-				<section class="col-lg-4 space" >
-					<h2>Profile</h2>
-					<p class="text-danger">I am a software engineer located in with a passion for delivering unique and efficient solutions to challenging issues. In order to improve myself as an individual, I concentrate my energy into enriching all aspects of my life. I operate under the mantra that in order to provide greater contributions to a team, one must have a well rounded and satisfying lifestyle.</p>
-				</section>	
-		 </div>
-    <div class="row page-header">
-    <h1>Experience</h1>
+     	<!--- third row for experience -->
+    	<div class="row page-header" id="experDiv">
+    			<h1>Experience</h1>
     			<section class="col-lg-4" id="lab">
 					<div class="well">
-					
-					<h3>Computer lab assistant</h3>
-					
-					
+						<h3>Computer lab assistant</h3>
 						<ul>
 							<li>Helping Students with any computer related problems</li>
 							<li>Maintain software of computers.</li>
 						</ul>
 					
-				</div>
+					</div>
     			</section>
     			<section class="col-lg-4">
-    			<div class="well">
-					
-					<h3>Junior network and hardware engineer</h3>
-					
-					<ul>
+    				<div class="well">
+						<h3>Junior network and hardware engineer</h3>
+						<ul>
 							<li>Maintain hardware and software of company computers</li>
 							<li>network troubleshooting and IT support for bank employees</li>
 							<li>Building an internal website in PHP which Logs all the necessary information of each branch with a network problem so it can be forwarded to the ISP.</li>
 						</ul>
-						
-					
-				</div>
+					</div>
     			</section>
     			<section class="col-lg-4">
     			<div class="well">
-					
 					<h3>Mobile application developer </h3>
 					<ul>
 						<li>
@@ -108,11 +124,13 @@
 							Build a web service that delivers data to the mobile application
 						</li>
 					</ul>
-					
 				</div>
     			</section>
-    			</div>
-    			<div class="row page-header" >
+    	</div>
+    	<!--- third row for experience -->
+
+    	<!--- fourth row for projects -->
+		<div class="row page-header" id="projectsDiv">
 				<h1>Projects</h1>
 				 <section class="col-lg-3">
 				  <div class="thumbnail">
@@ -145,28 +163,28 @@
 				  <p>Cross platform mobile application for an advertisement website called omarketers  </p>
 				  </div>
 				</section>
-
-    
-     	</div>
-
+		</div>
+		<!--- fourth row for projects -->
      </div> 
+     <!-- end of container -->
+
+     <!-- footer-->
      <footer>
      	<section id="row col-centered">
      	<div class="col-lg-12 footer">
      		<img src="image/facebook.png" class="footer_img" />
      	    <img src="image/twitter.png" class="footer_img"/>
      		<img src="image/linkedin.jpg" class="footer_img"/>
-     		<img src="image/facebook.png" class="footer_img"/>
-     	    <img src="image/facebook.png" class="footer_img"/>
-     		<img src="image/facebook.png" class="footer_img"/>
+     		<img src="image/github.png" class="footer_img"/>
+     	    
      	</div>
      	</section>
      </footer>
-
+	<!-- footer-->	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="../static/bootstrap/js/bootstrap.min.js"></script>
- 
+	<script src="../static/bootstrap/js/bootstrap.min.js"></script>
+ 	<script type="text/javascript" src="script/script.js"></script>
 
     </body>
 </html>
