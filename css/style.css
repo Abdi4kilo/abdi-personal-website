@@ -24,3 +24,19 @@
 .footer_img{
 	padding-left: 20px;
 }
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.nav li a{
+	font-family: 'Lobster', cursive;
+	font-size: 1.5em;
+}
+.container h2{
+font-family: 'Lobster', cursive;
+}
