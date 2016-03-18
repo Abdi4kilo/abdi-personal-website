@@ -15,6 +15,8 @@
 	width: 300px;
 	height: 300px;
 	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 border-radius: 50%;
+	 padding-top: 20px;
 	}
 .footer{
 	text-align: center;
@@ -35,34 +37,32 @@
 }
 .nav li a{
 	font-family: 'Lobster', cursive;
-	font-size: 1.5em;
+	
 }
 .container h2,.container h1{
 font-family: 'Lobster', cursive;
+
 }
 body{
 	font-family: 'Playfair Display', serif;
-	 color:black;
+	 color:indigo;
 	 font-size: 2em;
 
 }
 #experDiv{
 	
-	color:black;
+	color:indigo;
 	
 }
 #projectsDiv{
-	color:black;
+	color:indigo;
 }
 #uni{
-	background-image:url('../image/pattern13.jpg'); 
-	z-index: -9;
-	height: 4200px;
-	position: relative; 
-
-
+	background:url('../image/pattern13.jpg'); 
+	position: fixed;
+	width:100%;
+	height: 4800px; 
 }
 #par{
-	z-index: -6;
-	position: relative; 
+	position: relative;
 }

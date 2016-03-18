@@ -1,23 +1,17 @@
 
-var divid="";
-var off=0;
 $(".navi").click(function(e){
  			e.preventDefault();
- 			 divid="#"+$(this).attr('id')+"Div";
- 			off=$(divid).offset().top+200
+ 			var divid="#"+$(this).attr('id')+"Div";
+ 			
  			
  			$("html body").animate({
- 				scrollTop: off
+ 				scrollTop: $(divid).offset().top-55
  							},1000);
 
  		})
 
-		
-$('window').scroll(function(){
-	var ypos,image,image2;
-			//ypos=window.pageYOffset;
-			image=document.getElementById('par');
-			//image2=document.getElementById('experDiv');
-			image.style.top=off*0.6+"px";
-});
-
+function parallax(){
+	var ell=document.getElementById('uni');
+	ell.style.top=-(window.pageYOffset*0.6)+'px';
+}
+window.addEventListener('scroll',parallax,false);
