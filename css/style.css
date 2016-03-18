@@ -42,4 +42,27 @@ font-family: 'Lobster', cursive;
 }
 body{
 	font-family: 'Playfair Display', serif;
+	 color:black;
+	 font-size: 2em;
+
+}
+#experDiv{
+	
+	color:black;
+	
+}
+#projectsDiv{
+	color:black;
+}
+#uni{
+	background-image:url('../image/pattern13.jpg'); 
+	z-index: -9;
+	height: 4200px;
+	position: relative; 
+
+
+}
+#par{
+	z-index: -6;
+	position: relative; 
 }

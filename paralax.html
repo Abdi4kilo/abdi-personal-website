@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> </title>
+		        <!-- Latest compiled and minified CSS -->
+	<style>
+		*{
+			margin:0px;
+			padding: 0px;
+		}
+		#image{
+			position: relative;
+			z-index: -1;
+		}
+		#content{
+			height: 750px;
+			width: 100%;
+			margin-top:10px;
+			background-color: #4dbbac;
+			position:relative;
+			z-index: 1;
+		}
+	</style>
+	<script type="text/javascript">
+		var ypos,image;
+		function parallex(){
+			ypos=window.pageYOffset;
+
+			image=document.getElementById("image");
+			image.style.top=ypos*0.4+"px";
+		}
+		window.addEventListener("scroll",parallex);
+	</script>
+    </head>
+    <body>
+
+    <img id="image" src="image/profile.jpg" height="710px" widht="100%">
+    <div id="content"></div>	
+	
+ 	
+    </body>
+</html>

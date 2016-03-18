@@ -8,11 +8,22 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+		<script type="text/javascript">
+		var ypos,image,image2;
+		function parallax(){
+			ypos=window.pageYOffset;
+			image=document.getElementById('par');
+			//image2=document.getElementById('experDiv');
+			image.style.top=ypos*0.6+"px";
+			//image2.style.top=ypos*0.6+"px";
+		}
+		window.addEventListener('scroll',parallax);
+		</script>
     </head>
     <body>
      <!---navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
+		<div class="container" >
 		    <div class="navbar-header">
 			    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
 				    <span class="sr-only">Toggle navigation</span>
@@ -36,10 +47,10 @@
 		</div>
     </nav>
     <!---navigation -->
-
      <!-- start of container -->
-     <div class="container">
+     <div  id="uni">
     	 <!--- first row for profile -->
+    	 <div id="par" class="container">
 		<div class="row page-header" id="profileDiv">
 			<section class="col-lg-4 space" >
 				<h2>Contact</h2>
@@ -223,9 +234,7 @@
 
 		</div>
 		<!-- fourth row for technical skills -->
-     </div> 
-     <!-- end of container -->
-
+		
      <!-- footer-->
      <footer>
      	<section id="row col-centered">
@@ -239,6 +248,11 @@
      	</section>
      </footer>
 	<!-- footer-->	
+		</div>
+
+     </div> 
+     <!-- end of container -->
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	
