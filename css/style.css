@@ -1,15 +1,20 @@
 /* All style should go in this document. */
+
 .space{
 	padding-top:75px;
 }
 .navbar-default{
-	background-color:#7CBACF;
+	background-color:#018157;
 }
 .navbar-default .navbar-nav>li>a {
     color: white;
+
+    font-size: 1.5em;
+
 }
 .navbar-default .navbar-text {
     color: #020212;
+
 }
 .profile{
 	width: 300px;
@@ -35,6 +40,9 @@
 .navbar .navbar-collapse {
   text-align: center;
 }
+a {
+    color: darkblue;
+}
 .nav li a{
 	font-family: 'Lobster', cursive;
 	
@@ -45,24 +53,23 @@ font-family: 'Lobster', cursive;
 }
 body{
 	font-family: 'Playfair Display', serif;
-	 color:indigo;
+	 color:darkblue;
 	 font-size: 2em;
 
 }
 #experDiv{
-	
-	color:indigo;
-	
+	color:darkblue;
 }
 #projectsDiv{
-	color:indigo;
+	color:darkblue;
 }
-#uni{
-	background:url('../image/pattern13.jpg'); 
+#bgimage{
+	background:url('../image/back.jpg'); 
 	position: fixed;
 	width:100%;
 	height: 4800px; 
 }
-#par{
+
+#parallax{
 	position: relative;
 }
