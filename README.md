@@ -1,2 +1,2 @@
 # abdi-personal-website
-An initial test repo for A100 Apprentices to use to practice on.
+This repo is for my static personal website which I have built using Bootstrap and I little parallaxing.
